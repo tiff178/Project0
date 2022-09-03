@@ -19,7 +19,7 @@ public class RockPaperScissorsGame {
     public static void play(){ // method to call the computer and user's choice and determine who wins 
         String computer = computerChoice();
         String user = userChoice();
-        determineWinner(user, computer);
+        determineWinner(computer, user);
     }
     
     public static String userChoice(){ // method to get user's choice of rock, paper, or scissors and calls the isValidChoice method
